@@ -1,0 +1,57 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-public-css {
+  font-weight: bold;
+  text-decoration: none;
+}
+.navigation-links-store {
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-about {
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-discord {
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-home {
+  font-weight: bold;
+  margin-left: var(--dl-space-space-twounits);
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-public-css {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-store {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-about {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-discord {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
