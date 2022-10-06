@@ -658,7 +658,7 @@
 }
 .public-css-gallery-card15 {
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  border: none;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -666,7 +666,7 @@
 }
 .public-css-gallery-card16 {
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  border: none;
   display: flex;
   align-items: center;
   flex-direction: column;
